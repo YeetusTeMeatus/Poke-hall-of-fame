@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+				font-family: monospace;
+      }
+      .big {
+        width: 97vw;
+        height: 95vh;
+        table-layout: fixed ;
+        width: 100% ;
+      }
+      .big tr {
+        overflow-y: scroll;
+      }
+      .big th, td {
+        border: 1px solid black;
+      }
+      .big th {
+        height: 50px;
+      }
+      .big td {
+        width: 25%;
+      }
+      .party td {
+        width: 52px;
+        height: 80px;
+        border: 1px solid white;
+      }
+      .party img {
+        height: 70px;
+      }
+      .trainer {
+        float: left;
+        width: 80px;
+      }
+      .card {
+        background: red;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid orange;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="big">
+      <tr>
+        <th>Gen I (RGBY,FRLG,PE)</th>
+        <th>Gen II (GSC,HGSS)</th>
+        <th>Gen III (RSE,ORAS)</th>
+        <th>Gen IV (DPPt)</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <h4>Ash - Normal Run (Red)</h4>
+            <div class="trainer">
+              <img src="https://archives.bulbagarden.net/media/upload/4/4c/Spr_RB_Red_2.png"><br />
+              Badges<br />8<br />Deaths<br />N/A<br />Total Lv<br />600
+            </div>
+            <table class="party">
+              <tr>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png">
+                  Pikachu
+                </td>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png">
+                  Butterfree
+                </td>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png">
+                  Pidgeot
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+                  Charizard
+                </td>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+                  Bulbasaur
+                </td>
+                <td>
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png">
+                  Squirtle
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
